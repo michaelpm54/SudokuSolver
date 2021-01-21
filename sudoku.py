@@ -18,11 +18,6 @@ class App:
 		pygame.display.set_caption('Sudoku Solver Visualisation')
 		self.screen = pygame.display.set_mode((self.w, self.h))
 		self.font = pygame.font.SysFont('Consolas', 44)
-		self.animating = False
-		self.anim_start_x = 0
-		self.anim_end_x = 0
-		self.anim_start_y = 0
-		self.anim_end_y = 0
 		self.progress = 1.0
 		self.x = 0
 		self.y = 0
